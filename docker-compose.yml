@@ -1,6 +1,6 @@
 web:
   image: 'gitlab/gitlab-ce:latest'
-  restart: always
+#  restart: always
   hostname: 'localhost'
   environment:
     GITLAB_OMNIBUS_CONFIG: |
